@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"iostream": "cpp"
+	},
+	"files.exclude": {
+		"**/*.exe": true
+	},
+	"code-runner.executorMap": {
+		"cpp": "cd $dirWithoutTrailingSlash && g++ -std=c++11 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+	}
+}
